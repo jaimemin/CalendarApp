@@ -160,7 +160,7 @@ public class WeeklyFragment extends Fragment {
                 }
                 // 해당 날짜의 스케줄이 두개 이상일 경우에
                 if(schedules[i].size() > 1)
-                    title += ("외 +" + (schedules[i].size() - 1));
+                    title += (" 외 +" + (schedules[i].size() - 1));
                 titleOfSchedule[i].setText(title);
             }
             // 다음 날
