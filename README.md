@@ -11,7 +11,7 @@ Overview of the app workflow
 4.2 Each monthly fragment's gridlayout's cell shows the number of schedules.(If there is no schedule on that day, instead of marking +0, nothing is indicated for that cell.)</br>
 4.3 Each weekly fragment's gridlayout's cell shows the first 10 letters of the first schedule's schedule and if there's more than one schedules on that day, indicate how many more schedules are in that day.</br>
 5. So, in order to see the detailed schedule contents daily fragment should be selected. That's why I've implemented so that if the user clicks the cell of the monthly fragment or weekly fragment's gridlayout cell, the corresponding day fragment will show up on the main screen.
-6. In daily fragment, aside from the content of schedules, there's a floating action button at the left bottom corner.</br>
+6. In daily fragment, aside from the content of schedules, there's a floating action button at the right bottom corner.</br>
 6.1 In order to add or delete schedule, just press the floating action button and the main screen will move to ScheduleActivity.</br>
 7. In order to add a schedule, fill in the editText and press enter or add button.</br>
 7.1 In order to delete the schedule, press the delete button(which looks like waste basket).</br>
