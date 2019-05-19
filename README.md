@@ -1,5 +1,7 @@
 # CalendarApp
 
+Programmers Summer Internship Task
+
 Overview of the app workflow
 1. After 1.3 seconds, the app will enter the main screen(MainActivity).
 2. The main screen consists of 3 fragments.(monthly fragment, weekly fragment, daily fragment)
@@ -14,3 +16,7 @@ Overview of the app workflow
 7. In order to add a schedule, fill in the editText and press enter or add button.</br>
 7.1 In order to delete the schedule, press the delete button(which looks like waste basket).</br>
 7.2 Press the back button to go back to the main screen.</br>
+
+Bug I need to fix
+1. If the user adds the schedule and returns to the main screen by pressing the back button, the tablayout selects the right tab(daily fragment) but the onTouch focus is on the wrong tab(monthly fragment).</br>
+--->Let me know if you know the solution to this problem.
