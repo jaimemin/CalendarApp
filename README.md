@@ -16,6 +16,7 @@ Overview of the app workflow
 7. In order to add a schedule, fill in the editText and press enter or add button.</br>
 7.1 In order to delete the schedule, press the delete button(which looks like waste basket).</br>
 7.2 Press the back button to go back to the main screen.</br>
+8. All of the schedules will be recorded in SQLite Database.</br>
 
 Bug I need to fix
 1. If the user adds the schedule and returns to the main screen by pressing the back button, the tablayout selects the right tab(daily fragment) but the onTouch focus is on the wrong tab(monthly fragment).</br>
